@@ -1,12 +1,20 @@
 import React, { Component } from "react";
 import { render } from  "react-dom";
+import HomePage from "./homepage";
+import JoinRoomPage from "./roomjoinpage";
+import CreateRoomPage from "./createroompage";
 
 export default class App extends Component {
     constructor(props) {
         super(props);
     }
+
     render() {
-        return <h1>Testing React Doge</h1>;
+        return(
+            <div>
+                <HomePage />
+            </div>
+        );
     }
 }
 
